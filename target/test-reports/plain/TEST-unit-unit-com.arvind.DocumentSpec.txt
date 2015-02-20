@@ -1,0 +1,10 @@
+Testsuite: com.arvind.DocumentSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 2.415 sec
+------------- Standard Output ---------------
+--Output from test for validation of domain--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from test for validation of domain--
+------------- ---------------- ---------------
+
+Testcase: test for validation of domain took 2.384 sec

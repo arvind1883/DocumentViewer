@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="Sales13" id="0" name="DocumentSpec" package="com.arvind" tests="1" time="2.415" timestamp="2015-02-20T17:49:39">
+      <properties />
+
+      <testcase classname="com.arvind.DocumentSpec" name="test for validation of domain" time="2.384" />
+
+      <system-out><![CDATA[--Output from test for validation of domain--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from test for validation of domain--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

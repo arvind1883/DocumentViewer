@@ -1,0 +1,23 @@
+<h2>Document </h2>
+<div class="container-fluid">
+	<div class="col-md-12">
+		<form role="form">
+			<fieldset class="form-group" ng-class="{'has-error': errors.author}">
+				<label for="author">Author</label>
+				<input id="author" ng-model="document.author" type="text" class="form-control" placeholder="name" title="Author" required />
+			</fieldset>
+			<fieldset class="form-group" >
+				<label for="pubDate">Pub Date</label>
+				<datepicker min="minDate" show-weeks="showWeeks" ng-model="document.pubDate" required></datepicker>
+			</fieldset>
+			<fieldset class="form-group">
+				<label for="description">Description</label>
+				<textarea id="description" ng-model="document.description" type="text" class="form-control" title="Description"></textarea>
+			</fieldset>
+			<fieldset class="form-group">
+				<button type="button" class="btn btn-primary pull-right" ng-click="saveDocument()">Save</button>
+	        	<button type="button" class="btn btn-primary pull-right" ng-click="cancel()">Cancel</button>
+			</fieldset>
+		</form>
+	</div>
+</div>
